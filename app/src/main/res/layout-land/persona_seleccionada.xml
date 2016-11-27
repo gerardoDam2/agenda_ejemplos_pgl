@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/persona_seleccionada"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ejercicios.pgl.agenda_ejemplos_pgl.PersonaSeleccionadaActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="3"
+        android:columnCount="3">
+
+        <TextView
+            android:text="12343454"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numeroTextView"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:text="Juan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombreTextView"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <TextView
+            android:text="Nombre:"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:id="@+id/textView9"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/imageView4"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="2"
+            android:background="@color/colorPrimary" />
+
+        <TextView
+            android:text="Número:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10"
+            android:fontFamily="monospace"
+            android:textSize="18sp"
+            android:textStyle="normal|bold"
+            android:layout_column="0"
+            android:layout_row="2" />
+    </GridLayout>
+</LinearLayout>
